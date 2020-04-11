@@ -7,8 +7,8 @@
 
 body {
     @include background;
-    background: $primary-color;
-    color: set-text-color($primary-color);
+    background: $third-color;
+    color: set-text-color($third-color);
     height:100%;
     margin: 0;
     font-family:'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -103,7 +103,7 @@ main {
     }
     
     .job {
-        background: lighten($primary-color, 5);
+        background: lighten($third-color, 8);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
     }
@@ -181,8 +181,8 @@ main {
 #main-footer {
     text-align: center;
     padding: 1rem;
-    background: darken($primary-color,10);
-    color:set-text-color($primary-color);
+    background: darken($third-color,5);
+    color:set-text-color($third-color);
     height: 60px;
 }
 
