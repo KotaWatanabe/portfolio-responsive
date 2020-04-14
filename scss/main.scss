@@ -116,6 +116,14 @@ main {
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
 
+    .tech-stack {
+        margin: 0;
+        border: 1px solid #fff;
+        text-align: start;
+        padding: 0.5rem;
+        font-size:1rem;
+    }
+
     img {
         width: 100%;
         border: 3px #fff solid;
