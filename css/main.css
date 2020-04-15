@@ -257,7 +257,7 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 70vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
@@ -282,4 +282,4 @@ main {
     width: 150px;
     height: 150px; }
   .boxes div {
-    font-size: 1.5rem; } }
+    font-size: 1.3rem; } }
